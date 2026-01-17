@@ -45,14 +45,14 @@ while True:
 
     guesses += 1
 
-    bulls = 0
-    cows = 0
+  bulls = 0
+cows = 0
 
-    for i in range(4):
-        if guess[i] == secret_number[i]:
-            bulls += 1
-        elif guess[i] in secret_number:
-            cows += 1
+for i in range(4):
+    if guess[i] == secret_number[i]:
+        bulls += 1
+    elif guess[i] in secret_number:
+        cows += 1
 
     if bulls == 4:
         print("-----------------------------------------------")
