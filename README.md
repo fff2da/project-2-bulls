@@ -1,23 +1,19 @@
-Bulls and Cows Game
+Hra Bulls and Cows
 
-Author: Petr Svetr
+Autor: Petr Svetr
 Email: petr.svetr@gmail.com
 
 Discord: Petr Svetr#4490
 
-Description
+Popis
+Toto je jednoduchá příkazová hra Bulls and Cows napsaná v Pythonu. Počítač vygeneruje náhodné 4místné číslo s unikátními číslicemi a vaším úkolem je ho uhodnout.
+Bulls znamenají správnou číslici na správném místě.
+Cows znamenají správnou číslici na špatném místě.
+Hra pokračuje, dokud neuhodnete celé číslo správně.
+Jak hrát
 
-This is a simple command-line Bulls and Cows game written in Python.
-The computer generates a random 4-digit number with unique digits, and your task is to guess it.
-A bull means a correct digit in the correct position.
-A cow means a correct digit in the wrong position.
-The game continues until you guess the number correctly.
-How to Play
-
-Run the script:
-python projekt_2.py
-Enter a 4-digit number.
-Digits must be unique.
-The number cannot start with 0.
-The game will tell you how many bulls and cows you have after each guess.
-Keep guessing until you get 4 bulls.
+Spusťte skript: python projekt_2.py
+Zadejte 4místné číslo. Číslice musí být unikátní.
+Číslo nemůže začínat nulou.
+Po každém tipu vám hra řekne, kolik máte býků a kraviček.
+Pokračujte v hádání, dokud nezískáte 4 býky.
